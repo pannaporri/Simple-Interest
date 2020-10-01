@@ -1,2 +1,4 @@
 # Simple-Interest
-To find simple interest
+Python program to find simple interest
+Functions used
+Input from the user
