@@ -1,3 +1,6 @@
+p=int(input())
+t=int(input())
+r=int(input())
 def simple_interest(p,t,r): 
     print('The principal is', p) 
     print('The time period is', t) 
@@ -9,4 +12,4 @@ def simple_interest(p,t,r):
     return si 
       
 # Driver code 
-simple_interest(8, 6, 8) 
+simple_interest(p,t,r)
