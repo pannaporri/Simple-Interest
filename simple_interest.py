@@ -1,6 +1,5 @@
 # Python3 program to find simple interest 
-# for given principal amount, time and 
-# rate of interest. 
+# for given principal amount, time and rate of interest. 
 
 
 def simple_interest(p,t,r): 
