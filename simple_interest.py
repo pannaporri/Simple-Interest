@@ -1,15 +1,16 @@
-p=int(input())
-t=int(input())
-r=int(input())
+# Python3 program to find simple interest 
+# for given principal amount, time and rate of interest. 
+
+
 def simple_interest(p,t,r): 
-    print('The principal is', p) 
-    print('The time period is', t) 
-    print('The rate of interest is',r) 
-      
-    si = (p * t * r)/100
-      
-    print('The Simple Interest is', si) 
-    return si 
-      
+	print('The principal is', p) 
+	print('The time period is', t) 
+	print('The rate of interest is',r) 
+	
+	si = (p * t * r)/100
+	
+	print('The Simple Interest is', si) 
+	return si 
+	
 # Driver code 
-simple_interest(p,t,r)
+simple_interest(1000, 2, 5) 
